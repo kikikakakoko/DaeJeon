@@ -9,14 +9,17 @@ import UIKit
 
 
 
-class ViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource {
+class ViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource, LetterModelProtocol {
+   
+    
   
     var sonBoy = Son()
     @IBOutlet weak var sonCollection: UICollectionView!
     
     @IBOutlet weak var sonLabel: UILabel!
     
-    
+    var sons = [Son]()
+    var model = LetterModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +27,20 @@ class ViewController: UIViewController,UICollectionViewDelegate, UICollectionVie
         sonCollection.dataSource = self
         sonCollection.delegate = self
         // Do any additional setup after loading the view.
+        model.delegate = self
+        model.getLetters()
     }
+    
+    func letterRetrieved(_ son: [Son]) {
+        
+        self.sons = son
+        
+    }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return sonBoy.sonLetter.count
+        return sons.son?.count
         
     }
     

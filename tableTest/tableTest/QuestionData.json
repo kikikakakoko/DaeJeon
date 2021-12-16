@@ -1,0 +1,28 @@
+
+[
+{
+    "answer":[
+            "who are you?",
+            "what do you do?",
+            "where do you live?"
+    ],
+    "explain":[
+        "I am Jack",
+        "I am sixteen",
+        "I am a man"
+    ],
+    "secondExplain":[
+        "I am teacher",
+        "I teach mathmatics and I am good teacher",
+        "I write novel too"
+    ],
+    "thirdExplain":[
+        "I live in Seoul",
+        "I live in Korea",
+        "I live in Gangnam"
+    ],
+    "detail":
+        "I don't like my name Jack because it's too many many name..."
+            
+}
+]

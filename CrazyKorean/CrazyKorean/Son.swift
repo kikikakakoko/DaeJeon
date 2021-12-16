@@ -7,8 +7,10 @@
 
 import Foundation
 
-class Son {
+class Son:Decodable {
     
-    var sonLetter = ["ㄱ","ㄴ","ㄷ"]
+    var son:[String]?
+    var sonMother:[String]?
+    
     
 }

@@ -18,6 +18,9 @@
 		50A037F3276A05BD0030C860 /* CrazyKoreanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A037F2276A05BD0030C860 /* CrazyKoreanUITestsLaunchTests.swift */; };
 		50A03800276A08210030C860 /* Son.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A037FF276A08210030C860 /* Son.swift */; };
 		50A03802276A0B930030C860 /* sonCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A03801276A0B930030C860 /* sonCollectionCell.swift */; };
+		50DC8C1E276A18690055CD5F /* SonMother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC8C1D276A18690055CD5F /* SonMother.swift */; };
+		50DC8C22276A19070055CD5F /* LetterData.json in Resources */ = {isa = PBXBuildFile; fileRef = 50DC8C21276A19070055CD5F /* LetterData.json */; };
+		50DC8C24276A1DF00055CD5F /* LetterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DC8C23276A1DF00055CD5F /* LetterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		50A037F2276A05BD0030C860 /* CrazyKoreanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyKoreanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		50A037FF276A08210030C860 /* Son.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Son.swift; sourceTree = "<group>"; };
 		50A03801276A0B930030C860 /* sonCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonCollectionCell.swift; sourceTree = "<group>"; };
+		50DC8C1D276A18690055CD5F /* SonMother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonMother.swift; sourceTree = "<group>"; };
+		50DC8C21276A19070055CD5F /* LetterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LetterData.json; sourceTree = "<group>"; };
+		50DC8C23276A1DF00055CD5F /* LetterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				50A037DD276A05BD0030C860 /* Info.plist */,
 				50A037FF276A08210030C860 /* Son.swift */,
 				50A03801276A0B930030C860 /* sonCollectionCell.swift */,
+				50DC8C1D276A18690055CD5F /* SonMother.swift */,
+				50DC8C21276A19070055CD5F /* LetterData.json */,
+				50DC8C23276A1DF00055CD5F /* LetterModel.swift */,
 			);
 			path = CrazyKorean;
 			sourceTree = "<group>";
@@ -238,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50A037DC276A05BD0030C860 /* LaunchScreen.storyboard in Resources */,
+				50DC8C22276A19070055CD5F /* LetterData.json in Resources */,
 				50A037D9276A05BD0030C860 /* Assets.xcassets in Resources */,
 				50A037D7276A05BD0030C860 /* Main.storyboard in Resources */,
 			);
@@ -265,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				50A03800276A08210030C860 /* Son.swift in Sources */,
+				50DC8C24276A1DF00055CD5F /* LetterModel.swift in Sources */,
 				50A037D4276A05BD0030C860 /* ViewController.swift in Sources */,
 				50A037D0276A05BD0030C860 /* AppDelegate.swift in Sources */,
+				50DC8C1E276A18690055CD5F /* SonMother.swift in Sources */,
 				50A037D2276A05BD0030C860 /* SceneDelegate.swift in Sources */,
 				50A03802276A0B930030C860 /* sonCollectionCell.swift in Sources */,
 			);
