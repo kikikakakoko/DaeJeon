@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5083DEB4276B0CD30005ACA7 /* ExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083DEB3276B0CD30005ACA7 /* ExplainViewController.swift */; };
+		508CBCF2276B94600093658B /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508CBCF1276B94600093658B /* StateManager.swift */; };
 		50BDAFFF276A96F7002AEE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDAFFE276A96F7002AEE31 /* AppDelegate.swift */; };
 		50BDB001276A96F7002AEE31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDB000276A96F7002AEE31 /* SceneDelegate.swift */; };
 		50BDB003276A96F7002AEE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BDB002276A96F7002AEE31 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		5083DEB3276B0CD30005ACA7 /* ExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainViewController.swift; sourceTree = "<group>"; };
+		508CBCF1276B94600093658B /* StateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
 		50BDAFFB276A96F7002AEE31 /* tableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BDAFFE276A96F7002AEE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50BDB000276A96F7002AEE31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				50BDB000276A96F7002AEE31 /* SceneDelegate.swift */,
 				50BDB002276A96F7002AEE31 /* ViewController.swift */,
 				5083DEB3276B0CD30005ACA7 /* ExplainViewController.swift */,
+				508CBCF1276B94600093658B /* StateManager.swift */,
 				50BDB004276A96F7002AEE31 /* Main.storyboard */,
 				50BDB007276A96F8002AEE31 /* Assets.xcassets */,
 				50BDB009276A96F8002AEE31 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				50BDB003276A96F7002AEE31 /* ViewController.swift in Sources */,
 				50BDB02F276A9847002AEE31 /* Question.swift in Sources */,
 				50BDAFFF276A96F7002AEE31 /* AppDelegate.swift in Sources */,
+				508CBCF2276B94600093658B /* StateManager.swift in Sources */,
 				50BDB001276A96F7002AEE31 /* SceneDelegate.swift in Sources */,
 				5083DEB4276B0CD30005ACA7 /* ExplainViewController.swift in Sources */,
 				50BDB035276A996B002AEE31 /* QuizModel.swift in Sources */,

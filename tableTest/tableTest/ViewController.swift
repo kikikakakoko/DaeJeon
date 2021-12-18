@@ -20,7 +20,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var testlabel: UILabel!
     
-      var indexNum = 0
+    var indexNum = 0
+    static var choosenRow:Int?
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -84,15 +87,39 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+       
         if explainBoy != nil {
 
                     present(explainBoy!, animated: true, completion: nil)
 
         }
-        indexNum = indexPath.row
+       
+
+//        explainBoy?.choosenRow = tableA.indexPathForSelectedRow?.row //계속 0이나오는 이유 1,2,3...이 나와야....
+//        var choosenRow = tableA.indexPathForSelectedRow
+//        indexNum = indexPath.row
+       
+       
+         ViewController.choosenRow = tableA.indexPathForSelectedRow?.row
         
+        let theNum = ViewController.choosenRow! as Int
+        
+        StateManager.saveState(indexNum: theNum)
+        
+        
+        
+        
+        
+
+//        let selectedNum = tableA.indexPathForSelectedRow
 //        testlabel.text = String(indexNum)
+        
+//       StateManager.saveState(indexNum: indexNum)
+//        let savedNum = StateManager.retrieveValue(key: StateManager.indexPathKey) as? Int
+//        testlabel.text = String(indexNum)
+        
+        
+        
         // 인덱스 패스의 조건에 따라 표시되는 테이블뷰의 indexPath.row값을 다르게 하자( explainView에서)
 //        if indexPath.row < 1{
 //        testlabel.text = "\(indexPath)"
