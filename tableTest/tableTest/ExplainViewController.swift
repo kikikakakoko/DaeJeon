@@ -52,9 +52,9 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
         
         let currentQuestion = questions[currentQuestionIndex]
         
-        if currentQuestion.explain != nil {
+        if currentQuestion.plusVowel1 != nil {
             
-            return currentQuestion.explain!.count
+            return currentQuestion.plusVowel1!.count
             
         }else{
             return 0
@@ -95,9 +95,9 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
             if label != nil {
 
                            let question = questions[currentQuestionIndex]
-                           if question.explain != nil && indexPath.row < question.explain!.count {
+                           if question.plusVowel1 != nil && indexPath.row < question.plusVowel1!.count {
 
-                               label!.text = question.explain![indexPath.row]
+                               label!.text = question.plusVowel1![indexPath.row]
 
                            }
 
@@ -106,21 +106,130 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         else if choosenRow == 1{
                             let question = questions[currentQuestionIndex]
-                            if question.secondExplain != nil && indexPath.row < question.secondExplain!.count {
+                            if question.plusVowel2 != nil && indexPath.row < question.plusVowel2!.count {
 
-                                label!.text = question.secondExplain![indexPath.row]
+                                label!.text = question.plusVowel2![indexPath.row]
 
                             }
 
                         }
-//
-//
+        else if choosenRow == 2{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel3 != nil && indexPath.row < question.plusVowel3!.count {
+
+                                label!.text = question.plusVowel3![indexPath.row]
+
+                            }
+
+                        }
+        
+        else if choosenRow == 3{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel4 != nil && indexPath.row < question.plusVowel4!.count {
+
+                                label!.text = question.plusVowel4![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 4{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel5 != nil && indexPath.row < question.plusVowel5!.count {
+
+                                label!.text = question.plusVowel5![indexPath.row]
+
+                            }
+
+                        }
+        
+        else if choosenRow == 5{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel6 != nil && indexPath.row < question.plusVowel6!.count {
+
+                                label!.text = question.plusVowel6![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 6{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel7 != nil && indexPath.row < question.plusVowel7!.count {
+
+                                label!.text = question.plusVowel7![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 7{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel8 != nil && indexPath.row < question.plusVowel8!.count {
+
+                                label!.text = question.plusVowel8![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 8{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel9 != nil && indexPath.row < question.plusVowel9!.count {
+
+                                label!.text = question.plusVowel9![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 9{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel10 != nil && indexPath.row < question.plusVowel10!.count {
+
+                                label!.text = question.plusVowel10![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 10{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel11 != nil && indexPath.row < question.plusVowel11!.count {
+
+                                label!.text = question.plusVowel11![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 11{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel12 != nil && indexPath.row < question.plusVowel12!.count {
+
+                                label!.text = question.plusVowel12![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 12{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel13 != nil && indexPath.row < question.plusVowel13!.count {
+
+                                label!.text = question.plusVowel13![indexPath.row]
+
+                            }
+
+                        }
+        else if choosenRow == 13{
+                            let question = questions[currentQuestionIndex]
+                            if question.plusVowel14 != nil && indexPath.row < question.plusVowel14!.count {
+
+                                label!.text = question.plusVowel14![indexPath.row]
+
+                            }
+
+                        }
+
+
         
         return cell
   
     }
-    
-    
+   
     @IBAction func backButton(_ sender: Any) {
         
         present(firstBoy!, animated: true, completion: nil)

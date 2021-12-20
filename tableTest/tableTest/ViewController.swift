@@ -53,9 +53,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let currentQuestion = questions[currentQuestionIndex]
         
-        if currentQuestion.answer != nil {
+        if currentQuestion.consnants != nil {
             
-            return currentQuestion.answer!.count
+            return currentQuestion.consnants!.count
             
         }else{
             return 0
@@ -75,9 +75,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             let question = questions[currentQuestionIndex]
             
-            if question.answer != nil && indexPath.row < question.answer!.count {
+            if question.consnants != nil && indexPath.row < question.consnants!.count {
                 
-                label!.text = question.answer![indexPath.row]
+                label!.text = question.consnants![indexPath.row]
                 
             }
             

@@ -1,13 +1,13 @@
 //
 //  Question.swift
-//  tableTest
+//  collectionTest
 //
-//  Created by max on 2021/12/16.
+//  Created by max on 2021/12/20.
 //
 
 import Foundation
 
-struct Question:Codable {
+struct Question: Decodable {
     
     var consnants:[String]?
     var plusVowel1:[String]?
@@ -17,12 +17,13 @@ struct Question:Codable {
     var plusVowel5:[String]?
     var plusVowel6:[String]?
     var plusVowel7:[String]?
-    var plusVowel8:[String]?
+    var plusVower8:[String]?
     var plusVowel9:[String]?
     var plusVowel10:[String]?
     var plusVowel11:[String]?
-    var plusVowel12:[String]?
+    var plusVower12:[String]?
     var plusVowel13:[String]?
     var plusVowel14:[String]?
     
+
 }
