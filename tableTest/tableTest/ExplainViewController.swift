@@ -20,7 +20,7 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
     var firstGuy = ViewController()
     var choosenRow = 0
    
-    @IBOutlet weak var testLabel: UILabel!
+    var soundPlayer = SoundManager()
     
     
     override func viewDidLoad() {
@@ -86,7 +86,7 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
         if theRowNum != nil {
             
             choosenRow = theRowNum!
-            testLabel.text = String(choosenRow)
+            
         }
         
         
@@ -223,12 +223,23 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
                             }
 
                         }
-
+        
 
         
         return cell
   
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if tableB.indexPathForSelectedRow!.row == 0 {
+            soundPlayer.playSound(effect: .match)
+        }else {
+            soundPlayer.playSound(effect: .noMatch)
+        }
+        
+    }
+    
+    
    
     @IBAction func backButton(_ sender: Any) {
         

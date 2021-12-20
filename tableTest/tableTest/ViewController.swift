@@ -17,9 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var tableA: UITableView!
     
     var explainBoy:ExplainViewController?
-    
-    @IBOutlet weak var testlabel: UILabel!
-    
+
     var indexNum = 0
     static var choosenRow:Int?
     
