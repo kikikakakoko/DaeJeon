@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5049E4622771A0410020B8E6 /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5049E4612771A0410020B8E6 /* card1.png */; };
 		50968DA22770BFFE00A59C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50968DA12770BFFE00A59C35 /* AppDelegate.swift */; };
 		50968DA42770BFFE00A59C35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50968DA32770BFFE00A59C35 /* SceneDelegate.swift */; };
 		50968DA62770BFFE00A59C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50968DA52770BFFE00A59C35 /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		50968DD22770C17C00A59C35 /* basicData.json in Resources */ = {isa = PBXBuildFile; fileRef = 50968DD12770C17C00A59C35 /* basicData.json */; };
 		50968DD42770C51D00A59C35 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50968DD32770C51D00A59C35 /* Question.swift */; };
 		50968DD62770CA9C00A59C35 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50968DD52770CA9C00A59C35 /* QuizViewController.swift */; };
-		509CEF1D2771210E002C1536 /* ACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509CEF1C2771210E002C1536 /* ACell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5049E4612771A0410020B8E6 /* card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card1.png; path = "../../../../../Desktop/iOS FoundationsBoard/Module 3/Module03Lesson03Assets/card1.png"; sourceTree = "<group>"; };
 		50968D9E2770BFFE00A59C35 /* collectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50968DA12770BFFE00A59C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50968DA32770BFFE00A59C35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		50968DD12770C17C00A59C35 /* basicData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = basicData.json; sourceTree = "<group>"; };
 		50968DD32770C51D00A59C35 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		50968DD52770CA9C00A59C35 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		509CEF1C2771210E002C1536 /* ACell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5049E46027719FF70020B8E6 /* imageFile */ = {
+			isa = PBXGroup;
+			children = (
+				5049E4612771A0410020B8E6 /* card1.png */,
+			);
+			path = imageFile;
+			sourceTree = "<group>";
+		};
 		50968D952770BFFE00A59C35 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +115,7 @@
 		50968DA02770BFFE00A59C35 /* collectionTest */ = {
 			isa = PBXGroup;
 			children = (
+				5049E46027719FF70020B8E6 /* imageFile */,
 				50968DA12770BFFE00A59C35 /* AppDelegate.swift */,
 				50968DA32770BFFE00A59C35 /* SceneDelegate.swift */,
 				50968DA52770BFFE00A59C35 /* ViewController.swift */,
@@ -117,7 +126,6 @@
 				50968DD12770C17C00A59C35 /* basicData.json */,
 				50968DD32770C51D00A59C35 /* Question.swift */,
 				50968DD52770CA9C00A59C35 /* QuizViewController.swift */,
-				509CEF1C2771210E002C1536 /* ACell.swift */,
 			);
 			path = collectionTest;
 			sourceTree = "<group>";
@@ -246,6 +254,7 @@
 				50968DAE2770BFFF00A59C35 /* LaunchScreen.storyboard in Resources */,
 				50968DAB2770BFFF00A59C35 /* Assets.xcassets in Resources */,
 				50968DD22770C17C00A59C35 /* basicData.json in Resources */,
+				5049E4622771A0410020B8E6 /* card1.png in Resources */,
 				50968DA92770BFFE00A59C35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +281,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50968DA62770BFFE00A59C35 /* ViewController.swift in Sources */,
-				509CEF1D2771210E002C1536 /* ACell.swift in Sources */,
 				50968DD62770CA9C00A59C35 /* QuizViewController.swift in Sources */,
 				50968DD42770C51D00A59C35 /* Question.swift in Sources */,
 				50968DA22770BFFE00A59C35 /* AppDelegate.swift in Sources */,

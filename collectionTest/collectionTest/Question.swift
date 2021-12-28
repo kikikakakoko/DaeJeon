@@ -24,6 +24,6 @@ struct Question: Decodable {
     var plusVower12:[String]?
     var plusVowel13:[String]?
     var plusVowel14:[String]?
-    
 
+   
 }

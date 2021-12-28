@@ -98,7 +98,7 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
                            if question.plusVowel1 != nil && indexPath.row < question.plusVowel1!.count {
 
                                label!.text = question.plusVowel1![indexPath.row]
-
+                               
                            }
 
                        }
@@ -223,9 +223,7 @@ class ExplainViewController: UIViewController, UITableViewDataSource, UITableVie
                             }
 
                         }
-        
 
-        
         return cell
   
     }

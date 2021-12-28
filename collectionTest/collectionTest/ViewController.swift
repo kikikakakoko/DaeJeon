@@ -18,6 +18,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var collectionA: UICollectionView!
     @IBOutlet weak var basicLabel: UILabel!
     
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -61,14 +63,23 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionA.dequeueReusableCell(withReuseIdentifier: "consnantCell", for: indexPath)
+        let cell = collectionA.dequeueReusableCell(withReuseIdentifier: "consnantCell", for: indexPath) 
         
-        let label = cell?.viewWithTag(1) as? UILabel
+        let label = cell.viewWithTag(1) as? UILabel
+        
+        if label != nil {
+            
+            let question = question[currentConsnantIndex]
+            
+            if question.consnants != nil && indexPath.row < question.consnants!.count{
+                
+                label!.text = question.consnants![indexPath.row]
+            }
+            
+        }
         
         return cell
-        
     }
-    
 
 }
 
