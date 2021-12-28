@@ -9,28 +9,24 @@ import Foundation
 
 class CardModel {
     
+    var randomNumber = 1
     func getCards() -> [Card] {
         
         //Declare en umpty array
         var generatedCards = [Card]()
-        //Randomly generate 8 pairs of cards
         
         for _ in 1...14 {
             
-            var theNumber = 1
-            
             let cardOne = Card()
             
-            cardOne.imageName = "card\(theNumber)"
+            cardOne.imageName = "card\(randomNumber)"
             
             generatedCards += [cardOne]
-            
-            theNumber += 1
+            randomNumber += 1
         }
         
         return generatedCards
-        //Return the array
         
     }
-    
+
 }

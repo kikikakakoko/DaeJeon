@@ -41,6 +41,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         // Get a reference to the cell that was tapped
         let cell = collectionView.cellForItem(at: indexPath) as? CollectionViewCell
 
+        //TODO: 이미지뷰를 안보이게 해야한다.
+        cell?.imageView.alpha = 0
+        
         cell?.playVideo()
         
     }
