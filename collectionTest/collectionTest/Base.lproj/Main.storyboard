@@ -36,21 +36,7 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="135-U7-hkE">
                                                     <rect key="frame" x="0.0" y="0.0" width="158" height="224"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBa-Rf-ZBS">
-                                                            <rect key="frame" x="10" y="10" width="120" height="108"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="oBa-Rf-ZBS" secondAttribute="bottom" constant="10" id="3fo-EM-vzD"/>
-                                                        <constraint firstItem="oBa-Rf-ZBS" firstAttribute="top" secondItem="135-U7-hkE" secondAttribute="top" constant="10" id="FeD-41-1mR"/>
-                                                        <constraint firstItem="oBa-Rf-ZBS" firstAttribute="leading" secondItem="135-U7-hkE" secondAttribute="leading" constant="10" id="LZA-xc-a2f"/>
-                                                        <constraint firstAttribute="trailing" secondItem="oBa-Rf-ZBS" secondAttribute="trailing" constant="10" id="rxR-W4-PRt"/>
-                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>

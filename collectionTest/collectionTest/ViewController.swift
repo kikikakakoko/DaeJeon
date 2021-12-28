@@ -16,7 +16,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     var model = QuizViewController()
 
     @IBOutlet weak var collectionA: UICollectionView!
-    @IBOutlet weak var basicLabel: UILabel!
+    
     
     
     

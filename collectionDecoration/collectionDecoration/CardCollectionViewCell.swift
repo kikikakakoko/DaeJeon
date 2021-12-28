@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class CardCollectionViewCell: UICollectionViewCell {
     
@@ -15,8 +17,18 @@ class CardCollectionViewCell: UICollectionViewCell {
     
     var card:Card?
     
+    @IBOutlet weak var testView: UIView!
     func configureCell(card:Card) {
         
+        // Plus AVPlayer
+        // TODO: 1.facilitating the size of the cell. 2. 동영상파일 지우고 그림파일이 표시되게하기
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "game", ofType: "mp4")!))
+        let layer = AVPlayerLayer(player: player)
+        layer.frame = testView.bounds
+        layer.videoGravity = .resizeAspectFill
+        testView.layer.addSublayer(layer)
+        
+        player.play()
         // Keep track of the card that this cell represent
         self.card = card
         
@@ -49,5 +61,16 @@ class CardCollectionViewCell: UICollectionViewCell {
         card?.isMatched = false
         
     }
+    func playVideo() {
+
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "game", ofType: "mp4")!))
+        let layer = AVPlayerLayer(player: player)
+        layer.frame = testView.bounds
+        layer.videoGravity = .resizeAspectFill
+        testView.layer.addSublayer(layer)
+
+        player.play()
+    }
+    
     
 }

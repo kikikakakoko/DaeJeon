@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505E6640277B4D4700F4AF15 /* game.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 505E663F277B4D4700F4AF15 /* game.mp4 */; };
 		5071819A2773311C00B66018 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507181992773311C00B66018 /* CardCollectionViewCell.swift */; };
 		50AA28CF2771D7C900435CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA28CE2771D7C900435CF1 /* AppDelegate.swift */; };
 		50AA28D12771D7C900435CF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA28D02771D7C900435CF1 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		505E663F277B4D4700F4AF15 /* game.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = game.mp4; path = ../../VideoTest/VideoTest/game.mp4; sourceTree = "<group>"; };
 		507181992773311C00B66018 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		50AA28CB2771D7C900435CF1 /* collectionDecoration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionDecoration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AA28CE2771D7C900435CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		50AA28CD2771D7C900435CF1 /* collectionDecoration */ = {
 			isa = PBXGroup;
 			children = (
+				505E663F277B4D4700F4AF15 /* game.mp4 */,
 				50AA28CE2771D7C900435CF1 /* AppDelegate.swift */,
 				50AA28D02771D7C900435CF1 /* SceneDelegate.swift */,
 				50AA28D22771D7C900435CF1 /* ViewController.swift */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AA28DB2771D7C900435CF1 /* LaunchScreen.storyboard in Resources */,
+				505E6640277B4D4700F4AF15 /* game.mp4 in Resources */,
 				50AA28D82771D7C900435CF1 /* Assets.xcassets in Resources */,
 				50AA28D62771D7C900435CF1 /* Main.storyboard in Resources */,
 			);
