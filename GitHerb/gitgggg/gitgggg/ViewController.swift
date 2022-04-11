@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         print("before pulled")
         print("commit")
         print("push")
+        print("commit in the Git")
     }
 
 
