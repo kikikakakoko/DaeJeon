@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  GitGit
+//  gitgggg
 //
 //  Created by max on 2022/04/11.
 //
@@ -12,9 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("git")
-        print("gitgit")
-        print("b4")
+        
+        print("dflkdsf")
     }
 
 
