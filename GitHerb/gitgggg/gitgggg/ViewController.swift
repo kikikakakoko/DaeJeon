@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print("dflkdsf")
+        print("before pulled")
+        print("commit")
     }
 
 
