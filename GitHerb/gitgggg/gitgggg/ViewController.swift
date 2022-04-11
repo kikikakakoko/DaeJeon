@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         print("dflkdsf")
         print("before pulled")
         print("commit")
+        print("push")
     }
 
 
